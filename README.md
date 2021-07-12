@@ -1,13 +1,14 @@
 # ActionTimer
 
-A class to execute an action every specified msec.
+A class to execute an action every specified msec. The functions are only `start`, `stop` and `notify`. `notify` function interrupts the timer and execute the specified action if the action isn't executing. It does nothing while the action is executing.
+Use `QueuedActionTimer` if you want to execute the action after current action process is completed.
 
 ## Usage
 
 ```ts
 const instance = new ActionTimer(1000);
 const action = () => {
-    // your logic
+    // your function
 }
 instance.action = action;
 instance.start();
