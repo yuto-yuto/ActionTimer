@@ -22,7 +22,7 @@ instance.notify(() => true);
 
 ## Example output
 
-See [example code](https://link). It executes every second but it calls notify function after 2800 msec.
+See [example code](https://github.com/yuto-yuto/ActionTimer/blob/main/example/app.ts). It executes every second but it calls notify function after 2800 msec.
 
 ```bash
 2021-07-12T04:29:51.358Z ---- timer start ----
