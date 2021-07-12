@@ -1,0 +1,6 @@
+test
+tsconfig.json
+index.ts
+.vscode
+example
+lib/**/*.ts
